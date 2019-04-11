@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-10T13:43:27.997Z</updated>
+  <updated>2019-04-11T10:51:20.046Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/04/10/git%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2019/04/10/git教程个人笔记/</id>
     <published>2019-04-10T13:42:57.000Z</published>
-    <updated>2019-04-10T13:43:27.997Z</updated>
+    <updated>2019-04-11T10:51:20.046Z</updated>
     
     <summary type="html">
     
@@ -29,11 +29,11 @@
       
         
         
-          &lt;p&gt;1.控制系统集中式和分布式版本区别
-1.1集中式 必须联网 版本库集中存放在中央服务器借书还书
-1.2分布式 不用联网 版本库分散存放 安全性高&lt;/p&gt;
-&lt;p&gt;2.添加工作区文件到Git仓库，在&amp;lt;repo&amp;gt;文件夹下
-2.1使用命令 git add
+          &lt;p&gt;##1.控制系统集中式和分布式版本区别
+###1.1集中式 必须联网 版本库集中存放在中央服务器借书还书
+###1.2分布式 不用联网 版本库分散存放 安全性高&lt;/p&gt;
+&lt;p&gt;##2.添加工作区文件到Git仓库，在repo文件夹下
+###2.1使用命令 git add
         
       
     
@@ -47,7 +47,7 @@
     <link href="http://yoursite.com/2019/04/09/markdown%E8%AF%AD%E6%B3%95%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/"/>
     <id>http://yoursite.com/2019/04/09/markdown语法个人整理/</id>
     <published>2019-04-09T11:17:24.000Z</published>
-    <updated>2019-04-09T14:52:10.665Z</updated>
+    <updated>2019-04-11T11:07:56.532Z</updated>
     
     <summary type="html">
     
@@ -57,7 +57,12 @@
         
           &lt;h2&gt;一、文字编辑&lt;/h2&gt;
 &lt;h3&gt; 1.1 斜体&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;*斜体* or
+&lt;pre&gt;&lt;code&gt;*斜体* or _斜体_
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt; 1.2
         
       
     
