@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-11T11:28:57.781Z</updated>
+  <updated>2019-04-11T13:49:18.221Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/04/10/git%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2019/04/10/git教程个人笔记/</id>
     <published>2019-04-10T13:42:57.000Z</published>
-    <updated>2019-04-11T11:28:57.781Z</updated>
+    <updated>2019-04-11T13:49:18.221Z</updated>
     
     <summary type="html">
     
@@ -38,6 +38,10 @@
     </summary>
     
     
+      <category term="git" scheme="http://yoursite.com/tags/git/"/>
+    
+      <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
   </entry>
   
   <entry>
@@ -45,7 +49,7 @@
     <link href="http://yoursite.com/2019/04/09/markdown%E8%AF%AD%E6%B3%95%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/"/>
     <id>http://yoursite.com/2019/04/09/markdown语法个人整理/</id>
     <published>2019-04-09T11:17:24.000Z</published>
-    <updated>2019-04-11T11:33:18.408Z</updated>
+    <updated>2019-04-11T13:51:28.414Z</updated>
     
     <summary type="html">
     
@@ -66,6 +70,10 @@
     
     </summary>
     
+    
+      <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
     
   </entry>
   
