@@ -177,64 +177,104 @@
         </center>
     </div>
     <div class="content-article">
-        <p>##1.控制系统集中式和分布式版本区别<br>
-###1.1集中式 必须联网 版本库集中存放在中央服务器借书还书<br>
-###1.2分布式 不用联网 版本库分散存放 安全性高</p>
-<p>##2.添加工作区文件到Git仓库，在repo文件夹下<br>
-###2.1使用命令 git add file，把要提交的修改从工作区添加到暂存区（Stage），可以添加多次<br>
-git add readme.txt<br>
-###2.2使用命令 git commit -m message，把暂存区的所有修改提交到版本库分支（Master），注释说明<br>
-git commit -m “wrote a readme file”</p>
-<p>##3.文件版本穿梭<br>
-###3.1查看提交历史，带file为查看单个文件<br>
-git log file<br>
+        <h2>一.控制系统集中式和分布式版本区别</h2>
+<h3> 1.1集中式 必须联网 版本库集中存放在中央服务器借书还书</h3>
+<h3> 1.2分布式 不用联网 版本库分散存放 安全性高</h3>
+<h2>二.添加工作区文件到Git仓库，在repo文件夹下</h2>
+<h3> 2.1使用命令 git add file，把要提交的修改从工作区添加到暂存区（Stage），可以添加多次</h3>
+<blockquote>
+<p>git add readme.txt</p>
+</blockquote>
+<h3> 2.2使用命令 git commit -m message，把暂存区的所有修改提交到版本库分支（Master），注释说明</h3>
+<blockquote>
+<p>git commit -m “wrote a readme file”</p>
+</blockquote>
+<h2>三.文件版本穿梭</h2>
+<h3> 3.1查看提交历史，带file为查看单个文件</h3>
+<blockquote>
+<p>git log file<br>
 git log --pretty=oneline file</p>
-<p>###3.2查看命令历史，带file为查看单个文件<br>
-git reflog file<br>
+</blockquote>
+<h3> 3.2查看命令历史，带file为查看单个文件</h3>
+<blockquote>
+<p>git reflog file<br>
 git reflog --pretty=oneline file</p>
-<p>###3.3版本穿梭，git reset --hard commit_id<br>
-git reset --hard 0ec438d</p>
-<p>##4.管理修改<br>
-###4.1查看状态<br>
-git status</p>
-<p>###4.2查看修改，工作区与暂存区比对<br>
-git diff</p>
-<p>###4.3查看修改，暂存区与版本库比对<br>
-git diff --cached<br>
+</blockquote>
+<h3> 3.3版本穿梭，git reset --hard commit_id</h3>
+<blockquote>
+<p>git reset --hard 0ec438d</p>
+</blockquote>
+<h2>四.管理修改</h2>
+<h3> 4.1查看状态</h3>
+<blockquote>
+<p>git status</p>
+</blockquote>
+<h3> 4.2查看修改，工作区与暂存区比对</h3>
+<blockquote>
+<p>git diff</p>
+</blockquote>
+<h3> 4.3查看修改，暂存区与版本库比对</h3>
+<blockquote>
+<p>git diff --cached<br>
 git diff --staged</p>
-<p>###4.4查看修改，工作区与版本库比对，git diff HEAD – file<br>
-git diff HEAD – readme.txt</p>
-<p>##5.撤销修改<br>
-###5.1撤回工作区最近一次文件修改，git checkout – file，或在文件管理器修改，本质为版本库版本替换工作区版本<br>
-git checkout – readme.txt</p>
-<p>###5.2撤回暂存区最近一次文件修改，git reset HEAD file<br>
-git reset HEAD readme.txt</p>
-<p>###5.3撤回版本库修改，见3.3版本穿梭<br>
-git reset --hard commit_id</p>
-<p>##6.删除恢复文件<br>
-###6.1删除工作区与版本库文件，git rm file，之后git commit<br>
-git rm readme.txt<br>
+</blockquote>
+<h3> 4.4查看修改，工作区与版本库比对，git diff HEAD – file</h3>
+<blockquote>
+<p>git diff HEAD – readme.txt</p>
+</blockquote>
+<h2>五.撤销修改</h2>
+<h3> 5.1撤回工作区最近一次文件修改，git checkout – file，或在文件管理器修改，本质为版本库版本替换工作区版本</h3>
+<blockquote>
+<p>git checkout – readme.txt</p>
+</blockquote>
+<h3> 5.2撤回暂存区最近一次文件修改，git reset HEAD file</h3>
+<blockquote>
+<p>git reset HEAD readme.txt</p>
+</blockquote>
+<h3> 5.3撤回版本库修改，见3.3版本穿梭</h3>
+<blockquote>
+<p>git reset --hard commit_id</p>
+</blockquote>
+<h2>六.删除恢复文件</h2>
+<h3> 6.1删除工作区与版本库文件，git rm file，之后git commit</h3>
+<blockquote>
+<p>git rm readme.txt<br>
 git commit -m “remove readme.txt”</p>
-<p>###6.2恢复版本库文件，见3.3版本穿梭<br>
-git reset --hard commit_id</p>
-<p>###6.3恢复工作区文件，见5.1版本库版本替换工作区版本<br>
-git checkout – file</p>
-<p>##7.远程仓库Github<br>
-###7.1一些指令<br>
-cd ~(进入用户主文件夹)<br>
+</blockquote>
+<h3> 6.2恢复版本库文件，见3.3版本穿梭</h3>
+<blockquote>
+<p>git reset --hard commit_id</p>
+</blockquote>
+<h3> 6.3恢复工作区文件，见5.1版本库版本替换工作区版本</h3>
+<blockquote>
+<p>git checkout – file</p>
+</blockquote>
+<h2>七.远程仓库Github</h2>
+<h3> 7.1一些指令</h3>
+<blockquote>
+<p>cd ~(进入用户主文件夹)<br>
 cd .ssh(进入.ssh文件夹)<br>
 ls(列出文件夹下目录)<br>
 cat id_rsa.pub(查看id_rsa.pub内容)</p>
-<p>###7.2部署远程库<br>
-###7.2.1关联一个远程库，git remote add origin git@server-name:path/repo-name.git<br>
-git remote add origin <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:alsrf/learngit.git<br>
-###7.2.2第一次推送master分支所有内容<br>
-git push -u origin master<br>
-###7.2.3将本地工作区最新修改推送至GitHub，先将工作区文件提交到版本库，然后使用命令<br>
-git push origin master</p>
-<p>###7.3从远程库克隆<br>
-在要获取文件的文件夹下使用命令，git clone git@server-name:path/repo-name.git<br>
-git clone <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:alsrf/gitskills.git</p>
+</blockquote>
+<h3> 7.2部署远程库</h3>
+<h3> 7.2.1关联一个远程库，git remote add origin git@server-name:path/repo-name.git</h3>
+<blockquote>
+<p>git remote add origin <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:alsrf/learngit.git</p>
+</blockquote>
+<h3> 7.2.2第一次推送master分支所有内容</h3>
+<blockquote>
+<p>git push -u origin master</p>
+</blockquote>
+<h3> 7.2.3将本地工作区最新修改推送至GitHub，先将工作区文件提交到版本库，然后使用命令</h3>
+<blockquote>
+<p>git push origin master</p>
+</blockquote>
+<h3> 7.3从远程库克隆</h3>
+<p>在要获取文件的文件夹下使用命令，git clone git@server-name:path/repo-name.git</p>
+<blockquote>
+<p>git clone <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:alsrf/gitskills.git</p>
+</blockquote>
 
     </div>
 </article>
@@ -334,13 +374,13 @@ git clone <a href="mailto:git@github.com" target="_blank" rel="noopener">git@git
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/04/10/git教程个人笔记/">git教程个人笔记</a>
+                    <a href="/2019/04/08/hello-world/">Hello World</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/04/08/hello-world/">Hello World</a>
+                    <a href="/2019/04/10/git教程个人笔记/">git教程个人笔记</a>
                 </span>
             </li>
             
