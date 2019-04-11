@@ -29,11 +29,9 @@
       
         
         
-          &lt;p&gt;##1.控制系统集中式和分布式版本区别
-###1.1集中式 必须联网 版本库集中存放在中央服务器借书还书
-###1.2分布式 不用联网 版本库分散存放 安全性高&lt;/p&gt;
-&lt;p&gt;##2.添加工作区文件到Git仓库，在repo文件夹下
-###2.1使用命令 git add
+          &lt;p&gt;##1.控制系统集中式和分布式版本区别&lt;br&gt;
+###1.1集中式 必须联网 版本库集中存放在中央服务器借书还书&lt;br&gt;
+###1.2分布式 不用联网 版本库分散存放
         
       
     
@@ -55,14 +53,8 @@
       
         
         
-          &lt;h2&gt;一、文字编辑&lt;/h2&gt;
-&lt;h3&gt; 1.1 斜体&lt;/h3&gt;
-&lt;pre&gt;&lt;code&gt;*斜体* or _斜体_
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3&gt; 1.2
+          &lt;h2 id=&quot;一-文字编辑&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#一-文字编辑&quot;&gt;¶&lt;/a&gt;一、文字编辑&lt;/h2&gt;
+&lt;h3 id=&quot;1-1-斜体&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-1-斜体&quot;&gt;¶&lt;/a&gt; 1.1
         
       
     
