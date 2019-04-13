@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-13T14:18:43.039Z</updated>
+  <updated>2019-04-13T17:29:57.343Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>游戏机制——高级游戏设计技术笔记</title>
-    <link href="http://yoursite.com/2019/04/13/%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6%E2%80%94%E2%80%94%E9%AB%98%E7%BA%A7%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/04/13/游戏机制——高级游戏设计技术笔记/</id>
+    <title>《伊苏8》个人评测</title>
+    <link href="http://yoursite.com/2019/04/14/%E3%80%8A%E4%BC%8A%E8%8B%8F8%E3%80%8B%E4%B8%AA%E4%BA%BA%E8%AF%84%E6%B5%8B/"/>
+    <id>http://yoursite.com/2019/04/14/《伊苏8》个人评测/</id>
+    <published>2019-04-13T17:19:48.000Z</published>
+    <updated>2019-04-13T17:29:57.343Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://5b0988e595225.cdn.sohucs.com/images/20180307/99df32f61e7f480e9649efcd879ab32d.jpeg&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="评测" scheme="http://yoursite.com/tags/%E8%AF%84%E6%B5%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《游戏机制——高级游戏设计技术》笔记</title>
+    <link href="http://yoursite.com/2019/04/13/%E3%80%8A%E6%B8%B8%E6%88%8F%E6%9C%BA%E5%88%B6%E2%80%94%E2%80%94%E9%AB%98%E7%BA%A7%E6%B8%B8%E6%88%8F%E8%AE%BE%E8%AE%A1%E6%8A%80%E6%9C%AF%E3%80%8B%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2019/04/13/《游戏机制——高级游戏设计技术》笔记/</id>
     <published>2019-04-13T13:53:21.000Z</published>
-    <updated>2019-04-13T14:18:43.039Z</updated>
+    <updated>2019-04-13T17:21:30.488Z</updated>
     
     <summary type="html">
     
@@ -49,11 +74,11 @@
   </entry>
   
   <entry>
-    <title>如何阅读一本书笔记</title>
-    <link href="http://yoursite.com/2019/04/13/%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/04/13/如何阅读一本书笔记/</id>
+    <title>《如何阅读一本书》笔记</title>
+    <link href="http://yoursite.com/2019/04/13/%E3%80%8A%E5%A6%82%E4%BD%95%E9%98%85%E8%AF%BB%E4%B8%80%E6%9C%AC%E4%B9%A6%E3%80%8B%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2019/04/13/《如何阅读一本书》笔记/</id>
     <published>2019-04-13T08:06:09.000Z</published>
-    <updated>2019-04-13T08:21:40.454Z</updated>
+    <updated>2019-04-13T17:23:50.683Z</updated>
     
     <summary type="html">
     
